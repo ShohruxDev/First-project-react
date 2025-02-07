@@ -6,16 +6,17 @@ import Newcomer from "./components/Newcomer";
 import Become from "./components/Become";
 import Footer from "./components/Footer";
 
-    
 function App() {
-    return <div>
-        <Header/>  
-        <Aweseme/> 
-        <Populor/>
-        <Trusted/>
-        <Newcomer/>
-        <Become/>
-        <Footer/>
+  return (
+    <div>
+      <Header />
+      <Aweseme />
+      <Populor />
+      <Trusted />
+      <Newcomer />
+      <Become />
+      <Footer />
     </div>
+  );
 }
- export default App;
+export default App;
